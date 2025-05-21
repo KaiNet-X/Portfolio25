@@ -3,9 +3,51 @@
 
 <div class="d-flex gap-3">
     <img src="/widget.png" alt="Web widget image" />
-    <p>
-        The John Deere ExpertConnect web widget was designed to be an initial point of contact for dealers' customers
-        when interacting with their site. Dealers can create multiple widget instances, each with several customization 
-        options including text, colors, allowed domains, and more. Their customers 
-    </p>
+    <div>
+        <section>
+            <h2>Overview</h2>
+            <p>
+                The ExpertConnect web widget was designed to be an initial point of contact for dealers' customers
+                when interacting with their site. Dealers can create multiple widget instances, each with several customization 
+                options including text, colors, allowed domains, and more. 
+            </p>
+        </section>
+        <section>
+            <h2>Widget frontend</h2>
+            <p>
+                I developed the frontend of the widget using TSX and bundled with Bun. It has two rendering modes which can
+                be selected in the customization page: direct rendering, and iframe rendering. The default choice is direct
+                as it is slightly more performant on lower-end devices, but iframe has the benefit of not being affected by 
+                custom css. There are many more customization options, including positioning, colors, different screens which 
+                can be enabled, allowed CORs origins, and more. These settings are pulled from the external API on initial 
+                load and cached for one day, unless otherwise specified on the customization page.
+            </p>
+        </section>
+        <section>
+            <h2>Customization page</h2>
+            <p>
+                The customization page is included with the ExpertConnect app, using React TS + NextJS. It allows for 
+                multiple discreet widgets to be configured which could be placed on internal/external sites, for example.
+                It has all of the customization options shown above and a live preview of the widget.
+            </p>
+        </section>
+        <section>
+            <h2>Backend</h2>
+            <p>
+                There are two main external endpoints, one for getting the configuration, and one for submitting the ticket.
+                Since these endpoints are open to the web, additional security measures were necessary. These endpoints are
+                behind Azure's APIM gateway. I created custom IP-based and instance-based rate limiting logic on the gateway,
+                as well as an exception to allow all CORs origins and forward the information to the API. A custom type filter
+                on the controller level handled CORs, since it is configurable on a per-widget basis. 
+            </p>
+            <p>
+                Each widget has it's own service account associated with it permitted to call the external endpoints. Each 
+                company gets an APIM subscription shared between its widgets. For these reasons, the internal endpoints also
+                use the Azure SDK to manage APIM subscriptions and users.
+            </p>
+        </section>
+        <section>
+            <h2>Development</h2>
+        </section>
+    </div>
 </div>
