@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/Portfolio25.yrf788qfbz.bundle.scp.css"
     },
     {
+      "Id": "/home/kai/Documents/Portfolio25/wwwroot/Video/turbine.mp4",
+      "PackagePath": "staticwebassets/Video/turbine.mp4"
+    },
+    {
       "Id": "/home/kai/Documents/Portfolio25/wwwroot/app.css",
       "PackagePath": "staticwebassets/app.css"
     },

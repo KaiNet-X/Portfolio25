@@ -1,0 +1,30 @@
+@page "/projects/diagnostic-tool"
+<h1>Web diagnostic tool</h1>
+
+<section>
+    <h2>Background</h2>
+    <p>
+        The customer success team was receiving a large volume of messages about issues which require a simple fix. The 
+        self-service diagnostic tool was developed in order to give customers a way to get quick, actionable feedback for 
+        simple issues, and to generate data to help the customer success team resolve more difficult issues. 
+    </p>
+</section>
+<section>
+    <h2>Tests</h2>
+    <p>
+        As it stands today, the diagnostic tool has 6 tests: browser permissions, microphone functionality, camera
+        functionality, network speed, VOIP calling, and video calling. These tests aim to detect if the customer’s issue is
+        caused by permissions, input devices, network conditions, or firewall/NAT issues. Stats and errors found while
+        running the tests are stored for 90 days, and at the end of the test session, users can elect to create a ticket
+        linking the report to the customer success team.
+    </p>
+</section>
+<section>
+    <h2>Iterations</h2>
+    <p>
+        Originally this tool was built as a standalone website. This had some drawbacks, with the site needing it’s own
+        rate limiting and authentication, as well as the permission test not being accurate to the site’s permissions.
+        On top of this, the test wasn’t useful to mobile app users. For these reasons, I produced a version of this tool
+        for the mobile client in Xamarin Forms, as well as added a page which integrated into the web application.
+    </p>
+</section>

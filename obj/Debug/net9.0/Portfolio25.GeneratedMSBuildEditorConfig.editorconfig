@@ -36,8 +36,20 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Ib21lLnJhem9y
 build_metadata.AdditionalFiles.CssScope = 
 
-[/home/kai/Documents/Portfolio25/Components/Pages/WebWidget.razor]
-build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9XZWJXaWRnZXQucmF6b3I=
+[/home/kai/Documents/Portfolio25/Components/Pages/Projects/SavoniusTurbine.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9qZWN0cy9TYXZvbml1c1R1cmJpbmUucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kai/Documents/Portfolio25/Components/Pages/Projects/WebDiagnosticTool.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9qZWN0cy9XZWJEaWFnbm9zdGljVG9vbC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kai/Documents/Portfolio25/Components/Pages/Projects/WebWidget.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9qZWN0cy9XZWJXaWRnZXQucmF6b3I=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/home/kai/Documents/Portfolio25/Components/Pages/ProjectsPage.razor]
+build_metadata.AdditionalFiles.TargetPath = Q29tcG9uZW50cy9QYWdlcy9Qcm9qZWN0c1BhZ2UucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
 [/home/kai/Documents/Portfolio25/Components/Routes.razor]

@@ -1,4 +1,4 @@
-@page "/project/widget"
+@page "/projects/widget"
 <h1>Communications widget</h1>
 
 <div class="d-flex gap-3">
@@ -29,7 +29,7 @@
         <section>
             <h2>Customization page</h2>
             <p>
-                The customization page is included with the ExpertConnect app, using React TS + NextJS. It allows for 
+                The customization page is included with the ExpertConnect app, using React/NextJS and TypeScript. It allows for 
                 multiple discreet widgets to be configured which could be placed on internal/external sites, for example.
                 It has all of the customization options shown above and a live preview of the widget.
             </p>
@@ -37,16 +37,16 @@
         <section>
             <h2>Backend</h2>
             <p>
-                There are two main external endpoints, one for getting the configuration, and one for submitting the ticket.
-                Since these endpoints are open to the web, additional security measures were necessary. These endpoints are
-                behind Azure's APIM gateway. I created custom IP-based and instance-based rate limiting logic on the gateway,
-                as well as an exception to allow all CORs origins and forward the information to the API. A custom type filter
-                on the controller level handled CORs, since it is configurable on a per-widget basis. 
-            </p>
-            <p>
-                Each widget has it's own service account associated with it permitted to call the external endpoints. Each 
-                company gets an APIM subscription shared between its widgets. For these reasons, the internal endpoints also
-                use the Azure SDK to manage APIM subscriptions and users.
+                ExpertConnect's API service is written in C# using ASP.NET Core. I wrote several management endpoints for
+                the widget which are used by the customization page to manage the widgets, and two external endpoints: one
+                for getting the configuration, and one for submitting the ticket. Since these endpoints are open to the web,
+                additional security measures were necessary. These endpoints are behind Azure's APIM gateway. I created
+                custom IP-based and instance-based rate limiting logic on the gateway, as well as an exception to allow all
+                CORs origins and forward the information to the API. A custom type filter on the controller level handled 
+                CORs, since it is configurable on a per-widget basis. Each widget has it's own service account associated 
+                with it permitted to call the external endpoints. Each company gets an APIM subscription shared between its
+                widgets. For these reasons, the internal endpoints also use the Azure SDK to manage APIM subscriptions and
+                users.
             </p>
         </section>
     </div>

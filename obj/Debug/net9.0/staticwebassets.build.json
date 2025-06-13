@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5mRqpAk/hGPJ5PgLlpwEqmX/c3j738anB+NJnWJAx8g=",
+  "Hash": "wn5qB/ybiDb8PtO/l+m0+TNB8+971Aj/jCAkndYi4iw=",
   "Source": "Portfolio25",
   "BasePath": "_content/Portfolio25",
   "Mode": "Default",
@@ -2010,6 +2010,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/lib/bootstrap/js/bootstrap.min.js.map"
+    },
+    {
+      "Identity": "/home/kai/Documents/Portfolio25/wwwroot/Video/turbine.mp4",
+      "SourceId": "Portfolio25",
+      "SourceType": "Discovered",
+      "ContentRoot": "/home/kai/Documents/Portfolio25/wwwroot/",
+      "BasePath": "_content/Portfolio25",
+      "RelativePath": "Video/turbine#[.{fingerprint}]?.mp4",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "q3s4onkssq",
+      "Integrity": "RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot/Video/turbine.mp4"
     },
     {
       "Identity": "/home/kai/Documents/Portfolio25/wwwroot/widget.png",
@@ -16119,6 +16140,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-BjY+GILu6ddhZFG+xuAdHyTQCE49ENBNmiXSYLZH3wg="
+        }
+      ]
+    },
+    {
+      "Route": "Video/turbine.mp4",
+      "AssetFile": "/home/kai/Documents/Portfolio25/wwwroot/Video/turbine.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3437306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 22:29:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o="
+        }
+      ]
+    },
+    {
+      "Route": "Video/turbine.q3s4onkssq.mp4",
+      "AssetFile": "/home/kai/Documents/Portfolio25/wwwroot/Video/turbine.mp4",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3437306"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "video/mp4"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Wed, 11 Jun 2025 22:29:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "q3s4onkssq"
+        },
+        {
+          "Name": "label",
+          "Value": "Video/turbine.mp4"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o="
         }
       ]
     },

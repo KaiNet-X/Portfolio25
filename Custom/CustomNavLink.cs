@@ -118,11 +118,15 @@ public class NavLink2 : ComponentBase, IDisposable
             return true;
         }
 
-        // if (Match == NavLinkMatch.Prefix
-        //     && IsStrictlyPrefixWithSeparator(currentUriAbsolute, _hrefAbsolute))
-        // {
-        //     return true;
-        // }
+        var path = new Uri(_hrefAbsolute).AbsolutePath;
+        if (path == "/") 
+            return false;
+        
+        if (Match == NavLinkMatch.Prefix
+            && IsStrictlyPrefixWithSeparator(currentUriAbsolute, _hrefAbsolute))
+        {
+            return true;
+        }
 
         return false;
     }

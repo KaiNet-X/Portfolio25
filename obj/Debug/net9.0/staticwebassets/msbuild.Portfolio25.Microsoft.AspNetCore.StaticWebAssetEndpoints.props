@@ -564,6 +564,18 @@
       <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"yrf788qfbz"},{"Name":"integrity","Value":"sha256-Yix0FqGrxm/SNogTgZiSJ\u002BlpIrEqzbngHqgI9gWN9jc="},{"Name":"label","Value":"_content/Portfolio25/Portfolio25.bundle.scp.css"}]]]></EndpointProperties>
       <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"5764"},{"Name":"Content-Type","Value":"text/css"},{"Name":"ETag","Value":"\u0022Yix0FqGrxm/SNogTgZiSJ\u002BlpIrEqzbngHqgI9gWN9jc=\u0022"},{"Name":"Last-Modified","Value":"Wed, 21 May 2025 21:41:33 GMT"}]]]></ResponseHeaders>
     </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Portfolio25/Video/turbine.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Video\turbine.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"integrity","Value":"sha256-RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o="}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=3600, must-revalidate"},{"Name":"Content-Length","Value":"3437306"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 22:29:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
+    <StaticWebAssetEndpoint Include="_content/Portfolio25/Video/turbine.q3s4onkssq.mp4">
+      <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\Video\turbine.mp4'))</AssetFile>
+      <Selectors><![CDATA[[]]]></Selectors>
+      <EndpointProperties><![CDATA[[{"Name":"fingerprint","Value":"q3s4onkssq"},{"Name":"integrity","Value":"sha256-RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o="},{"Name":"label","Value":"_content/Portfolio25/Video/turbine.mp4"}]]]></EndpointProperties>
+      <ResponseHeaders><![CDATA[[{"Name":"Accept-Ranges","Value":"bytes"},{"Name":"Cache-Control","Value":"max-age=31536000, immutable"},{"Name":"Content-Length","Value":"3437306"},{"Name":"Content-Type","Value":"video/mp4"},{"Name":"ETag","Value":"\u0022RntfL3PUF99XrDqQubI6IDrEvKxWcAVOvB7CwH2H/8o=\u0022"},{"Name":"Last-Modified","Value":"Wed, 11 Jun 2025 22:29:40 GMT"}]]]></ResponseHeaders>
+    </StaticWebAssetEndpoint>
     <StaticWebAssetEndpoint Include="_content/Portfolio25/widget.png">
       <AssetFile>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\widget.png'))</AssetFile>
       <Selectors><![CDATA[[]]]></Selectors>
