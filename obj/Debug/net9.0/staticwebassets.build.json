@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "wn5qB/ybiDb8PtO/l+m0+TNB8+971Aj/jCAkndYi4iw=",
+  "Hash": "eLRio27hhwCdROy9Y0PX0dfr6SE7LJ7Iz8bilD9yAGc=",
   "Source": "Portfolio25",
   "BasePath": "_content/Portfolio25",
   "Mode": "Default",
@@ -332,12 +332,12 @@
       "OriginalItemSpec": "/home/kai/Documents/Portfolio25/wwwroot/lib/bootstrap/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-3tn1m13k99.gz",
+      "Identity": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-gi7hq6psxw.gz",
       "SourceId": "Portfolio25",
       "SourceType": "Discovered",
       "ContentRoot": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/",
       "BasePath": "_content/Portfolio25",
-      "RelativePath": "app#[.{fingerprint=3tn1m13k99}]?.css.gz",
+      "RelativePath": "app#[.{fingerprint=gi7hq6psxw}]?.css.gz",
       "AssetKind": "All",
       "AssetMode": "All",
       "AssetRole": "Alternative",
@@ -346,8 +346,8 @@
       "RelatedAsset": "/home/kai/Documents/Portfolio25/wwwroot/app.css",
       "AssetTraitName": "Content-Encoding",
       "AssetTraitValue": "gzip",
-      "Fingerprint": "0xrav69emg",
-      "Integrity": "1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo=",
+      "Fingerprint": "6t6qm36v9v",
+      "Integrity": "BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "/home/kai/Documents/Portfolio25/wwwroot/app.css"
@@ -1060,8 +1060,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "3tn1m13k99",
-      "Integrity": "OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ=",
+      "Fingerprint": "gi7hq6psxw",
+      "Integrity": "uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot/app.css"
@@ -2056,13 +2056,13 @@
   ],
   "Endpoints": [
     {
-      "Route": "app.3tn1m13k99.css",
-      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-3tn1m13k99.gz",
+      "Route": "app.css",
+      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-gi7hq6psxw.gz",
       "Selectors": [
         {
           "Name": "Content-Encoding",
           "Value": "gzip",
-          "Quality": "0.000571755289"
+          "Quality": "0.000563063063"
         }
       ],
       "ResponseHeaders": [
@@ -2072,19 +2072,19 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1748"
+          "Value": "1775"
         },
         {
           "Name": "ETag",
-          "Value": "\"1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo=\""
+          "Value": "\"BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 21:41:33 GMT"
+          "Value": "Fri, 13 Jun 2025 03:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
+          "Value": "no-cache"
         },
         {
           "Name": "Content-Encoding",
@@ -2100,26 +2100,18 @@
         },
         {
           "Name": "ETag",
-          "Value": "W/\"OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ=\""
+          "Value": "W/\"uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo=\""
         }
       ],
       "EndpointProperties": [
         {
-          "Name": "fingerprint",
-          "Value": "3tn1m13k99"
-        },
-        {
-          "Name": "label",
-          "Value": "app.css"
-        },
-        {
           "Name": "integrity",
-          "Value": "sha256-OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ="
+          "Value": "sha256-uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo="
         }
       ]
     },
     {
-      "Route": "app.3tn1m13k99.css",
+      "Route": "app.css",
       "AssetFile": "/home/kai/Documents/Portfolio25/wwwroot/app.css",
       "Selectors": [],
       "ResponseHeaders": [
@@ -2129,7 +2121,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3321"
+          "Value": "3384"
         },
         {
           "Name": "Content-Type",
@@ -2137,11 +2129,156 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ=\""
+          "Value": "\"uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 21:41:33 GMT"
+          "Value": "Fri, 13 Jun 2025 03:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo="
+        }
+      ]
+    },
+    {
+      "Route": "app.css.gz",
+      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-gi7hq6psxw.gz",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 03:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0="
+        }
+      ]
+    },
+    {
+      "Route": "app.gi7hq6psxw.css",
+      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-gi7hq6psxw.gz",
+      "Selectors": [
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip",
+          "Quality": "0.000563063063"
+        }
+      ],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1775"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 03:26:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Encoding",
+          "Value": "gzip"
+        },
+        {
+          "Name": "Vary",
+          "Value": "Content-Encoding"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "W/\"uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo=\""
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gi7hq6psxw"
+        },
+        {
+          "Name": "label",
+          "Value": "app.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo="
+        }
+      ]
+    },
+    {
+      "Route": "app.gi7hq6psxw.css",
+      "AssetFile": "/home/kai/Documents/Portfolio25/wwwroot/app.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3384"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 13 Jun 2025 03:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2151,7 +2288,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3tn1m13k99"
+          "Value": "gi7hq6psxw"
         },
         {
           "Name": "label",
@@ -2159,13 +2296,13 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ="
+          "Value": "sha256-uP0w2+vL1+3yuC6FZ1DwtE9JsULke/2XzpEdnDuoUBo="
         }
       ]
     },
     {
-      "Route": "app.3tn1m13k99.css.gz",
-      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-3tn1m13k99.gz",
+      "Route": "app.gi7hq6psxw.css.gz",
+      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-gi7hq6psxw.gz",
       "Selectors": [],
       "ResponseHeaders": [
         {
@@ -2174,7 +2311,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1748"
+          "Value": "1775"
         },
         {
           "Name": "Content-Type",
@@ -2182,11 +2319,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo=\""
+          "Value": "\"BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 21:41:33 GMT"
+          "Value": "Fri, 13 Jun 2025 03:26:42 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -2204,7 +2341,7 @@
       "EndpointProperties": [
         {
           "Name": "fingerprint",
-          "Value": "3tn1m13k99"
+          "Value": "gi7hq6psxw"
         },
         {
           "Name": "label",
@@ -2212,144 +2349,7 @@
         },
         {
           "Name": "integrity",
-          "Value": "sha256-1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-3tn1m13k99.gz",
-      "Selectors": [
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip",
-          "Quality": "0.000571755289"
-        }
-      ],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1748"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 21:41:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "W/\"OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ=\""
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ="
-        }
-      ]
-    },
-    {
-      "Route": "app.css",
-      "AssetFile": "/home/kai/Documents/Portfolio25/wwwroot/app.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3321"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 21:41:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-OSe5CKY5YRiaCChtaAycCYF2+hvrQHcJHavhTotMvAQ="
-        }
-      ]
-    },
-    {
-      "Route": "app.css.gz",
-      "AssetFile": "/home/kai/Documents/Portfolio25/obj/Debug/net9.0/compressed/atm8kdx8h9-3tn1m13k99.gz",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1748"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Wed, 21 May 2025 21:41:33 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "no-cache"
-        },
-        {
-          "Name": "Content-Encoding",
-          "Value": "gzip"
-        },
-        {
-          "Name": "Vary",
-          "Value": "Content-Encoding"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "integrity",
-          "Value": "sha256-1BLn6/jKi6lSl9r+9t5kZp87uSbBvF+9gX/hpsIqhKo="
+          "Value": "sha256-BnlAS2ss79i/IB1HjNutluNB3s5V33dVEZ7icmDyQI0="
         }
       ]
     },

@@ -1,5 +1,6 @@
 * {
     --bs-navbar-brand-font-size: 2rem;
+    font-size: max(1vw, .5cm);
 }
 
 html, body {
@@ -81,4 +82,8 @@ h1:focus {
 .nav-item {
     margin: 0 .5rem;
     border-radius: 4px;
+}
+
+ul {
+    list-style: circle;
 }
