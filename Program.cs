@@ -1,3 +1,4 @@
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Portfolio25.Components;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -5,6 +6,15 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 builder.Services.AddRazorComponents()
     .AddInteractiveServerComponents();
+
+// builder.WebHost.ConfigureKestrel(options =>
+// {
+//     options.ListenAnyIP(8081, listenOptions =>
+//     {
+//         //listenOptions.Protocols = HttpProtocols.Http1AndHttp2AndHttp3;
+//         listenOptions.UseHttps();
+//     });
+// });
 
 var app = builder.Build();
 
@@ -17,7 +27,6 @@ if (!app.Environment.IsDevelopment())
 }
 
 app.UseHttpsRedirection();
-
 
 app.UseAntiforgery();
 
