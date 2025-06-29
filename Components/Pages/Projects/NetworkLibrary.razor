@@ -1,0 +1,24 @@
+@page "/projects/network-library"
+<h1>C# Network Library</h1>
+
+<h2>Overview</h2>
+<p>
+    In 2020, I was learning networking in C# and had several projects I realized were using similar patterns.
+    I decided to consolidate them in one library which I could use in those and future projects. I developed the
+    first iteration of my network library, 
+    <a href="https://github.com/KaiNet-X/simple-network-library">SimpleNetwork</a>.
+    I later created a newer version of the project using what I learned from this one, simply titled 
+    <a href="https://github.com/KaiNet-X/Network">Network</a>.
+</p>
+
+<h2>SimpleNetwork</h2>
+<p>
+    This library was designed to pass “objects” over the network, serializing them on one end and deserializing them on the other,
+    and holding them in type queues. I designed it to have optional end-to-end encryption using a protocol similar to TLS. It also 
+    had built-in support for transferring files over the network. Th library worked, and I ported some of my projects to use it, but 
+    some of the patterns were cumbersome to use, it was relatively slow, and prone to race conditions. For these reasons, I decided 
+    to rebuild it from scratch, this time using a modular approach to the functionality where each subsystem could be customized by 
+    the consumer. Objects and state would be passed as events, rather than having the consumer poll for state. Channels could be
+    easily created independent of the main connection which could use other protocols such as UDP or user supplied ones. I have 
+    maintained this library over the years, with my most recent changes in 2024. 
+</p>

@@ -64,14 +64,35 @@ h1:focus {
     text-align: start;
 }
 
+@property --nav-gradient-inner {
+    syntax: '<color>';
+    initial-value: #E9E9E900;
+    inherits: false;
+}
+
+@property --nav-gradient-outer {
+    syntax: '<color>';
+    initial-value: #E9E9E900;
+    inherits: false;
+}
+
 .nav-link.active {
     text-decoration-line: overline;
     text-decoration-style: solid;
-    background: linear-gradient(90deg, rgba(248,249,250, 1) 0%, rgba(233, 233, 233, 1) 50%, rgba(248,249,250, 1) 100%);
+}
+
+.nav-link {
+    transition: --nav-gradient-inner 200ms, --nav-gradient-outer 200ms;
+    background: linear-gradient(90deg, var(--nav-gradient-outer) 0%, var(--nav-gradient-inner) 40%, var(--nav-gradient-inner) 60%, var(--nav-gradient-outer) 100%);
+}
+
+.nav-link:hover {
+    --nav-gradient-inner: #E9E9E9;
+    --nav-gradient-outer: #F8F9FA;
 }
 
 .navbar-brand-container {
-    width: 25vw;
+    min-width: 25vw;
     text-align: center;
     background: radial-gradient(circle, rgba(153, 182, 227, 1) 0%, rgba(248,249,250, 1) 100%);
 }
