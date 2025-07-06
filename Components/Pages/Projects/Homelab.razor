@@ -1,0 +1,33 @@
+@page "/projects/homelab"
+<h1>Homelab</h1>
+<p>
+    My most recent project has been my home lab. It currently consists of one server and one network switch,
+    connecting various parts of the home network. I have been using it to experiment with hypervisors,
+    virtualization, docker, nginx, and more. I am even using it to host this site!
+</p>
+
+<h2>Server hardware</h2>
+<p>
+    I am using a Dell PowerEdge R630 server with idrac 8. I recently upgraded the ram from 16GB to 256GB so 
+    that it can better run my workload with headroom to configure caching. I currently have two of eight
+    2.5" drive bays filled, one acting as the boot drive and storage for virtual machines, the other as a
+    storage pool for my TrueNas installation. It has a 4 port 1GB nic to connect to the rest of the network 
+    with.
+</p>
+
+<h2>Technologies and services</h2>
+<p>
+    The server is running Proxmox on bare metal, which is currently host to four VMs and three containers.
+    I am running Ubuntu server as my docker host, which is currently hosting Nginx, my Minecraft server, 
+    and this site. I have Nginx set up to proxy this site and my Jellyfin instance to simplify my cloudflare
+    setup. I was previously running OPNsense and pihole, but since I moved and switched networks, I removed
+    OPNsense, and pihole is currently disabled.
+</p>
+
+<h2>Plans</h2>
+<p>
+    On the hardware side, I am planning to populate the last drive slots and configure them as a zfs pool. I
+    am also planning on adding an Nvidia P50 or P100 to split across VMs. On the software side, I am planning
+    on splitting my docker host into multiple RancherOS instances for configuration with docker swarm or
+    kubernetes, using GitLab to host my own repositories, as well as configure my own CI/CD pipeline.
+</p>
