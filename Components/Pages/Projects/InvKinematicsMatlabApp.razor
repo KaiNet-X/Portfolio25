@@ -1,0 +1,58 @@
+@page "/projects/ik-trajectory-3r-solver"
+<h3>Inverse kinematics and joint trajectory solver for a 3R robot</h3>
+
+<h3>Background</h3>
+<p>
+    I took "Mechanical Considerations in Robotics" during my final semester of college. In this class, I learned
+    a multitude of topics including but not limited to homogeneous transforms and rotations, modified 
+    Denavit–Hartenberg parameters, kinetics for a robot, inverse kinematics, and more.
+</p>
+
+<h3>IK solver assignment</h3>
+<p>
+    I was given an assignment to create a MATLAB app given the homogeneous transform matrix for the 
+    end-effector of a 3R robot, and a second set of joint angles. I was also given 4 test cases for the app.
+    Additionally, the joints had to move over a span of 40 seconds.
+    It needed to have the following features:
+</p>
+<ol>
+    <li>Find the initial joint angles given the transform matrix</li>
+    <li>Validate the calculated solutions</li>
+    <li>Calculate joint trajectories between the initial joint angles and given angles</li>
+    <li>Plot the angular velocity and acceleration of the joints</li>
+</ol>
+<p>
+    I also added the following features to go above and beyond:
+</p>
+<ul>
+    <li>Jerk and snap</li>
+    <li>Animate robot following trajectories with adjustable time scale</li>
+    <li>Pick between two solutions, visualize both</li>
+</ul>
+<h3>Approach</h3>
+<p>
+    I started with understanding the kinematics. I tried to calculate an analytical and geometric solution
+    for a planar 3R robot, but I quickly discovered the difficulty with that approach. I went back to the
+    drawing board, and realized that I could use the orientation of the end-effector to constrain it
+    to a 2R problem. I implemented this in MATLAB, and used the calculated DH parameters and transform 
+    matrix to validate the solution.
+</p>
+<p>
+    Next, I turned my focus to trajectory generation. I used the constraints of zero initial and final
+    velocity and acceleration, as well as the initial and final positions to find a polynomial trajectory.
+    I found the normalized form of this polynomial and implemented it in MATLAB. Given this information, I
+    calculated the first four derivatives and added it to a plot.
+</p>
+<p>
+    I also added a figure to visualize the joint motion.
+</p>
+<h3>Results</h3>
+<p>
+    I had a working and well-organized app that could do all the assignment asked and more. It was well-received
+    by my professor and I got an A on that assignment.
+</p>
+
+<label for="ml-app" class="d-block"><i>Image of the matlab app</i></label>
+<img id="ml-app" class="mb-3" alt="Matlab app image" src="/photos/inverse-kinematics-matlab/matlab-app.png" />
+<label for="derivatives" class="d-block"><i>Image of the calculated derivatives</i></label>
+<img id="derivatives" alt="Joint derivatives image" src="/photos/inverse-kinematics-matlab/joint-derivatives.png" />
