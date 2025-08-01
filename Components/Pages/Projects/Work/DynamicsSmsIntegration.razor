@@ -1,0 +1,41 @@
+@page "/projects/work/dynamics-sms"
+<h1>Dynamics 365 SMS integration</h1>
+
+<h2>Background</h2>
+<p>
+    During my third summer at John Deere on the ExpertConnect team, I was tasked with integrating ExpertConnect
+    into Dynamics Sales as a communication channel. This would simplify configuration for dealers while reducing
+    their costs and bringing the benefits of ExpertConnect into the sales app.
+</p>
+<h2>Considerations</h2>
+<p>
+    This was a cross-functional product, requiring me to collaborate closely with another internal team at Deere.
+    This brought a new set of challenges including onboarding into their project, getting the necessary
+    permissions for my modifications, and aligning priorities between both teams. There was also a set of technical
+    challenges with this project. Documentation of the features I needed to used required extensive digging, and
+    some aspects that had little documentation, requiring experimentation. Some features couldn't be configured
+    through the UI, requiring me to export the solution XML and edit it as needed. Additionally, the plugin
+    registration tool was exclusive to Windows, and I had been using a mac as my development machine, so I needed
+    to provision a virtual environment to register the custom plugins.
+</p>
+<h2>Dynamics changes</h2>
+<p>
+    As a baseline, I followed
+    <a href="https://learn.microsoft.com/en-us/dynamics365/sales/add-custom-sms-provider-intro">Microsoft's documentation</a>
+    on adding the channel. I implemented a plugin which could call custom ExpertConnect API endpoints to send a message
+    out of the channel, and to get team and phone number information from ExpertConnect in order to automatically sync
+    phone numbers and to properly configure access to each number. I also added API endpoints to Dynamics in order for it
+    to process inbound messages and to update message status.
+</p>
+<h2>ExpertConnect changes</h2>
+<p>
+    I created a custom API endpoint to get ExpertConnect numbers and their associated team configuration. I also added a
+    webhook which gets called whenever teams are added, removed, renamed, and users get added or removed, and the numbers
+    change.
+</p>
+<h2>Project status</h2>
+<p>
+    In the fall of 2024, I handed off the plugin code and the SMS channel solution to the other team as well as comprehensive
+    documentation of the changes I made. I have supported the team's work on the project, closely collaborating with engineers
+    on design decisions and implementing further changes on the ExpertConnect side.
+</p>
