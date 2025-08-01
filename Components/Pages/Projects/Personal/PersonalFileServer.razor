@@ -1,0 +1,24 @@
+@page "/projects/personal/personal-file-server"
+<h1>Personal file server</h1>
+
+<p>
+    I developed a simple file server and client app using my
+    <NavLink2 href="/projects/personal/network-library">custom network library</NavLink2>.
+    The project can be found <a href="https://github.com/KaiNet-X/PersonalFileServer">on GitHub</a>.
+</p>
+
+<h2>Server</h2>
+<p>
+    The server is a simple console app which can be run on Windows, MacOS, and Linux. It has commands for
+    managing users and clients.
+</p>
+<h2>Client</h2>
+<p>
+    The client is built in AvaloniaUI and works on Windows, MacOS, and Linux. It works on a zero-trust model,
+    compressing and then encrypting files using the password hash before sending it to the server. This ensures
+    that if the server gets compromised, files are still secure. The UI can upload/download individual files or
+    entire folders.
+</p>
+
+<img alt="File client main view" style="vertical-align: top" src="/photos/personal-file-server/file-client2.png"/>
+<img alt="File client server selection" style="vertical-align: top" src="/photos/personal-file-server/file-client1.png"/>

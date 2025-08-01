@@ -15,10 +15,14 @@
 <p>
     This library was designed to pass “objects” over the network, serializing them on one end and deserializing them on the other,
     and holding them in type queues. I designed it to have optional end-to-end encryption using a protocol similar to TLS. It also 
-    had built-in support for transferring files over the network. Th library worked, and I ported some of my projects to use it, but 
-    some of the patterns were cumbersome to use, it was relatively slow, and prone to race conditions. For these reasons, I decided 
-    to rebuild it from scratch, this time using a modular approach to the functionality where each subsystem could be customized by 
-    the consumer. Objects and state would be passed as events, rather than having the consumer poll for state. Channels could be
-    easily created independent of the main connection which could use other protocols such as UDP or user supplied ones. I have 
-    maintained this library over the years, with my most recent changes in 2024. 
+    had built-in support for transferring files over the network. The library worked, and I ported some of my projects to use it, but 
+    some of the patterns were cumbersome to use, performance could be improved, and it was prone to race conditions. For these reasons, I decided 
+    to rebuild it from scratch, this time 
+</p>
+<h2>Network</h2>
+<p>
+    <a href="https://github.com/KaiNet-X/Network">Network</a> is the successor project to SimpleNetwork. I designed it with extensibility in mind using a modular approach where each 
+    subsystem could be customized by the consumer. Objects and state would be passed as events, rather than having the consumer poll 
+    for them. Channels could be easily created independent of the main connection which could use other protocols such as UDP or even 
+    user-defined protocols. I have maintained this library over the years, updating it whenever I encounter a bug or need a new feature.
 </p>
